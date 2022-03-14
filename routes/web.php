@@ -24,8 +24,25 @@ Route::get('/', function () {
             'web coding',
             'arte',
             'montagna'
-        ]
+        ],
+
     ];
 
     return view('home', $data);
-});
+})->name('home');
+
+Route::get('/biograpy', function (){
+    return view('pages.biograpy');
+})->name('biograpy');
+
+Route::get('/gallery', function (){
+    return view('pages.gallery');
+})->name('gallery');
+
+Route::get('/passion', function (){
+    return view('pages.passion');
+})->name('passion');
+
+Route::get('/contact', function (){
+    return view('pages.contact');
+})->name('contact');
