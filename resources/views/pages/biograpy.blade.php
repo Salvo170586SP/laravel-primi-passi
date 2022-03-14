@@ -20,6 +20,10 @@
             <a href="{{ route('contact')}}">CONTACT</a>
         </nav>
     </header>
+    <main>
+        <h3>Mi presento</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium suscipit non reiciendis modi, cumque similique eveniet veritatis? Magnam excepturi aliquid quo distinctio impedit quos dolorum, enim asperiores error, minima aliquam?</p>
+    </main>
 </body>
 
 </html>
