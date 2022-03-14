@@ -11,7 +11,6 @@
 <body>
     <header>
         <h1>Hello World</h1>
-        <h2>GALLERY</h2>
         <nav>
             <a href="{{ route('home')}}">HOME</a>
             <a href="{{ route('biograpy')}}">CHI SONO</a>
@@ -21,6 +20,8 @@
         </nav>
     </header>
     <main>
+    <h2>GALLERY</h2>
+
         <img src="https://www.liberopensiero.eu/wp-content/uploads/2021/05/535baeeb-a332-49f9-853f-1efad5527b34.jpg" alt="">
         <img src="https://media.rds.it/web/wp-content/uploads/2021/04/parco-green-list.jpg" alt="">
         <img src="https://www.frasimania.it/wp-content/uploads/2021/02/poesie-natura-700x490.jpg" alt="">

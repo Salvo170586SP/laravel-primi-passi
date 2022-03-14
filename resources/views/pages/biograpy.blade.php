@@ -11,7 +11,6 @@
 <body>
     <header>
         <h1>Hello World</h1>
-        <h2>BIOGRAFIA</h2>
         <nav>
             <a href="{{ route('home')}}">HOME</a>
             <a href="{{ route('biograpy')}}">CHI SONO</a>
@@ -21,7 +20,7 @@
         </nav>
     </header>
     <main>
-        <h3>Mi presento</h3>
+    <h2>BIOGRAFIA</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium suscipit non reiciendis modi, cumque similique eveniet veritatis? Magnam excepturi aliquid quo distinctio impedit quos dolorum, enim asperiores error, minima aliquam?</p>
     </main>
 </body>

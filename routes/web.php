@@ -44,5 +44,13 @@ Route::get('/passion', function (){
 })->name('passion');
 
 Route::get('/contact', function (){
-    return view('pages.contact');
+
+    $data = [
+        'number' => 12542357882,
+        'address' => 'via castellana 1',
+        'city' => 'Palermo',
+        'url' => 'www.google.com'
+    ];
+
+    return view('pages.contact', $data);
 })->name('contact');

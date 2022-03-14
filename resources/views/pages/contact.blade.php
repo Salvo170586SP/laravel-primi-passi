@@ -9,7 +9,6 @@
 <body>
 <header>
         <h1>Hello World</h1>
-        <h2>CONTATTI</h2>
         <nav>
             <a href="{{ route('home')}}">HOME</a>
             <a href="{{ route('biograpy')}}">CHI SONO</a>
@@ -18,5 +17,14 @@
             <a href="{{ route('contact')}}">CONTACT</a>
         </nav>
     </header>
+    <main>
+    <h2>CONTATTI</h2>
+    <ul>
+        <li>NUMERO DI TELEFONO: {{ $number }}</li>
+        <li>INDIRIZZO: {{ $address }}</li>
+        <li>CITTA': {{ $city }}</li>
+        <li>SITO WEB: {{ $url }}</li>      
+    </ul>
+    </main>
 </body>
 </html>
