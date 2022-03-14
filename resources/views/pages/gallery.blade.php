@@ -20,6 +20,12 @@
             <a href="{{ route('contact')}}">CONTACT</a>
         </nav>
     </header>
+    <main>
+        <img src="https://www.liberopensiero.eu/wp-content/uploads/2021/05/535baeeb-a332-49f9-853f-1efad5527b34.jpg" alt="">
+        <img src="https://media.rds.it/web/wp-content/uploads/2021/04/parco-green-list.jpg" alt="">
+        <img src="https://www.frasimania.it/wp-content/uploads/2021/02/poesie-natura-700x490.jpg" alt="">
+        <img src="https://cdn.studenti.stbm.it/images/2021/10/13/tema-sul-rapporto-uomo-natura-nella-letteratura-orig.jpeg" alt="">
+    </main>
 </body>
 
 </html>
